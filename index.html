@@ -12,7 +12,7 @@
     $.getJSON("").done(makeList);
  
  
-       function makeList(jsonfrutta) {
+       function makeList(jsonFrutta) {
     for (frutta of jsonFrutta) {
         let newItem = `<li>${Frutta}</li>`;
         $("ul").append(newItem);
