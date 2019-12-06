@@ -4,7 +4,7 @@ import json
 from frutta import frutta
 
 
-app = Flask(__name__)
+app = Flask("frutta")
 
 @app.route('/')
 def root():
